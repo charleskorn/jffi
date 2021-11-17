@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: shared-object
-          path: build/jni/*.so
+          path: build/jni/*.jnilib
       - name: Archive built jar
         uses: actions/upload-artifact@v2
         with:
